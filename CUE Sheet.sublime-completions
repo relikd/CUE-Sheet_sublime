@@ -51,6 +51,6 @@
 		{ "trigger": ".m4a", "contents": ".m4a" },
 		{ "trigger": ".mp3", "contents": ".mp3" },
 		{ "trigger": ".wav", "contents": ".wav" },
-		{ "trigger": ".wma", "contents": ".wma" },
+		{ "trigger": ".wma", "contents": ".wma" }
 	]
 }
