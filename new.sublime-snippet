@@ -1,0 +1,75 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <tabTrigger>new</tabTrigger>
+    <scope>source.cuesheet</scope>
+    <description>CUE Template</description>
+	<content><![CDATA[
+TITLE "${1:Album}"
+PERFORMER "${2:Artist}"
+REM GENRE "${3:Alternative}"
+REM DATE ${4:2012}
+REM DISCNUMBER 1
+REM TOTALDISCS 1
+REM COMMENT "${5:ExactAudioCopy v0.99pb5}"
+FILE "01 - ${6:file}.flac" WAVE
+  TRACK 01 AUDIO
+    TITLE "${6:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "02 - ${7:file}.flac" WAVE
+  TRACK 02 AUDIO
+    TITLE "${7:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "03 - ${8:file}.flac" WAVE
+  TRACK 03 AUDIO
+    TITLE "${8:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "04 - ${9:file}.flac" WAVE
+  TRACK 04 AUDIO
+    TITLE "${9:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "05 - ${10:file}.flac" WAVE
+  TRACK 05 AUDIO
+    TITLE "${10:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "06 - ${11:file}.flac" WAVE
+  TRACK 06 AUDIO
+    TITLE "${11:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "07 - ${12:file}.flac" WAVE
+  TRACK 07 AUDIO
+    TITLE "${12:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "08 - ${13:file}.flac" WAVE
+  TRACK 08 AUDIO
+    TITLE "${13:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "09 - ${14:file}.flac" WAVE
+  TRACK 09 AUDIO
+    TITLE "${14:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "10 - ${15:file}.flac" WAVE
+  TRACK 10 AUDIO
+    TITLE "${15:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "11 - ${16:file}.flac" WAVE
+  TRACK 11 AUDIO
+    TITLE "${16:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+FILE "12 - ${17:file}.flac" WAVE
+  TRACK 12 AUDIO
+    TITLE "${17:Song}"
+    FLAGS DCP
+    INDEX 01 00:00:00
+]]></content>
+</snippet>
