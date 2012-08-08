@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Textmate bundle for CUE Sheets</string>
+	<key>fileTypes</key>
+	<array>
+		<string>cue</string>
+		<string>CUE</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>(FILE|TRACK)\s*$</string>
+	<key>foldingStopMarker</key>
+	<string></string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>CUE Sheet</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(CATALOG|CDTEXTFILE|FILE|FLAGS|INDEX|ISRC|PERFORMER|(POST|PRE)GAP|REM (GENRE|DATE|DISCID|DISCNUMBER|TOTALDISCS|COMMENT)|SONGWRITER|TITLE|TRACK)\b</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(BINARY|MOTOROLA|AIFF|WAVE|MP3)\w*\b</string>
+			<key>name</key>
+			<string>constant.other</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(4CH|DCP|PRE|SCMS)\w*\b</string>
+			<key>name</key>
+			<string>constant.other</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(AUDIO|CDG|MODE(1/(2048|2336)|2/(2336|2352))|CDI/23(36|52))\w*\b</string>
+			<key>name</key>
+			<string>constant.other</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b[0-9]{2}:[0-9]{2}:[0-9]{2}\b</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.cuesheet</string>
+	<key>uuid</key>
+	<string>D00C06B9-71B2-4FEB-A0E3-37237F429001</string>
+</dict>
+</plist>

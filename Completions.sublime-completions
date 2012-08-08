@@ -1,0 +1,48 @@
+{
+	"scope": "source.cuesheet",
+	"completions":
+	[
+		{ "trigger": "CATALOG", "contents": "CATALOG ${0:1234567890123}" },
+		{ "trigger": "CDTEXTFILE", "contents": "CDTEXTFILE \"${0:file}.cdt\"" },
+		{ "trigger": "FILE", "contents": "FILE \"${0:file}.flac\" WAVE" },
+		{ "trigger": "FLAGS", "contents": "FLAGS DCP" },
+		{ "trigger": "INDEX", "contents": "INDEX 01 00:00:00" },
+		{ "trigger": "ISRC", "contents": "ISRC ${0:ABCDE1234567}" },
+		{ "trigger": "PERFORMER", "contents": "PERFORMER \"$0\"" },
+		{ "trigger": "POSTGAP", "contents": "POSTGAP 00:${0:02}:00" },
+		{ "trigger": "PREGAP", "contents": "PREGAP 00:${0:02}:00" },
+		{ "trigger": "REM GENRE", "contents": "REM GENRE \"$0\"" },
+		{ "trigger": "REM DATE", "contents": "REM DATE 20${0:00}" },
+		{ "trigger": "REM DISCID", "contents": "REM DISCID ${0:ABCDEF01}" },
+		{ "trigger": "REM DISCNUMBER", "contents": "REM DISCNUMBER 1" },
+		{ "trigger": "REM TOTALDISCS", "contents": "REM TOTALDISCS 1" },
+		{ "trigger": "REM COMMENT", "contents": "REM COMMENT \"${0:CC-BY-NC-SA 3.0 Creative Commons License}\"" },
+		{ "trigger": "SONGWRITER", "contents": "SONGWRITER \"$0\"" },
+		{ "trigger": "TITLE", "contents": "TITLE \"$0\"" },
+		{ "trigger": "TRACK", "contents": "TRACK ${0:01} AUDIO" },
+// == File Types ============================================================
+		{ "trigger": "BINARY (File Type)", "contents": "BINARY" },
+		{ "trigger": "MOTOROLA (File Type)", "contents": "MOTOROLA" },
+		{ "trigger": "AIFF (File Type)", "contents": "AIFF" },
+		{ "trigger": "WAVE (File Type)", "contents": "WAVE" },
+		{ "trigger": "MP3 (File Type)", "contents": "MP3" },
+// == Flag Types ============================================================
+		{ "trigger": "4CH (Flag)", "contents": "4CH" },
+		{ "trigger": "DCP (Flag)", "contents": "DCP" },
+		{ "trigger": "PRE (Flag)", "contents": "PRE" },
+		{ "trigger": "SCMS (Flag)", "contents": "SCMS" },
+// == Track Types ===========================================================
+		{ "trigger": "AUDIO (Track Type)", "contents": "AUDIO" },
+		{ "trigger": "CDG (Track Type)", "contents": "CDG" },
+		{ "trigger": "MODE1/2048 (Track Type)", "contents": "MODE1/2048" },
+		{ "trigger": "MODE1/2336 (Track Type)", "contents": "MODE1/2336" },
+		{ "trigger": "MODE2/2336 (Track Type)", "contents": "MODE2/2336" },
+		{ "trigger": "MODE2/2352 (Track Type)", "contents": "MODE2/2352" },
+		{ "trigger": "CDI/2336 (Track Type)", "contents": "CDI/2336" },
+		{ "trigger": "CDI/2352 (Track Type)", "contents": "CDI/2352" },
+// == Snippets ==============================================================
+		{ "trigger": "disc (1/1)", "contents": "REM DISCNUMBER 1\nREM TOTALDISCS 1" },
+		{ "trigger": "disc (1/2)", "contents": "REM DISCNUMBER 1\nREM TOTALDISCS 2" },
+		{ "trigger": "disc (2/2)", "contents": "REM DISCNUMBER 2\nREM TOTALDISCS 2" }
+	]
+}

@@ -1,0 +1,15 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <tabTrigger>track</tabTrigger>
+    <scope>source.cuesheet</scope>
+    <description>Track Template</description>
+	<content><![CDATA[
+TRACK ${0:01} AUDIO
+  TITLE "$1"
+  PERFORMER "$2"
+  FLAGS DCP
+  PREGAP 00:02:00
+  INDEX 01 00:00:00
+  POSTGAP 00:02:00
+]]></content>
+</snippet>
