@@ -43,6 +43,14 @@
 // == Snippets ==============================================================
 		{ "trigger": "disc (1/1)", "contents": "REM DISCNUMBER 1\nREM TOTALDISCS 1" },
 		{ "trigger": "disc (1/2)", "contents": "REM DISCNUMBER 1\nREM TOTALDISCS 2" },
-		{ "trigger": "disc (2/2)", "contents": "REM DISCNUMBER 2\nREM TOTALDISCS 2" }
+		{ "trigger": "disc (2/2)", "contents": "REM DISCNUMBER 2\nREM TOTALDISCS 2" },
+// == Other Completions =====================================================
+		{ "trigger": ".aiff", "contents": ".aiff" },
+		{ "trigger": ".flac", "contents": ".flac" },
+		{ "trigger": ".iso", "contents": ".iso" },
+		{ "trigger": ".m4a", "contents": ".m4a" },
+		{ "trigger": ".mp3", "contents": ".mp3" },
+		{ "trigger": ".wav", "contents": ".wav" },
+		{ "trigger": ".wma", "contents": ".wma" },
 	]
 }
